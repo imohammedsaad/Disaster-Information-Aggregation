@@ -3,10 +3,10 @@ import pymongo
 from pymongo import MongoClient
 
 # Twitter API credentials
-api_key = 'SfTMnrV8aPb1xcMpzlE1eahe3'
-api_secret_key = 'vy28N6P88OtTeGp0x5DnEa2peKjIppey5nPa7vwPUKmqA8vG7k'
-access_token = '1730966855681257472-EbIGjOQoPglmz8thuBvHLPSKUsz22a'
-access_token_secret = 'VtzMx23M8N7P8baLmNijEpYtyX8He2WJHYVooqERylfUQ'
+api_key = 'API_KEY'
+api_secret_key = SECRET_API_KEY'
+access_token = 'ACESS_TOKEN'
+access_token_secret = 'ACCESS_TOKEN_SECRET'
 
 # Authenticate with Twitter
 auth = tweepy.OAuthHandler(api_key, api_secret_key)
