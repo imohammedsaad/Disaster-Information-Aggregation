@@ -12,7 +12,7 @@ from spacy.training import Example
 nlp = spacy.load('en_core_web_sm')
 
 # Configuration
-api_key = os.getenv('NEWS_API_KEY', '600c37470bd14895b710bc5ff493b872')
+api_key = os.getenv('NEWS_API_KEY', 'NEWS_API')
 news_url = (
     f'https://newsapi.org/v2/everything?q=("natural+disaster"+OR+earthquake+OR+tsunami+OR+landslide+OR+flood+OR+wildfire+OR+hurricane)'
     f'+AND+India&language=en&sortBy=publishedAt&apiKey={api_key}'
